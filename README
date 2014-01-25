@@ -1,0 +1,7 @@
+This Ruby script can be used to play HTTP streams on a WDTV Live device (gen3) using the standard firmware.
+
+* Usage: ruby wdtv.rb command [command options]
+* The default host is WDTVLive, you can override this by setting the WDTVHOST environment variable
+* Available commands:
+  * install           - Installs the exploit needed to send commands to the WDTV. Only needs to be executed once
+  * play <stream uri> - Tells the WDTV to play a stream. For example: play http://example.com/stream.mp4
